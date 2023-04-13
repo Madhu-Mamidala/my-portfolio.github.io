@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  color: white;
+  background: black;
+}
+ 
+.navbar {
+  background: none;
+}
+.text-color {
+  color: #fbff22;
+  font-weight: bold;
+}
+.bg-btn {
+  background-color: #fbff22;
+}
+.card-text {
+  color: #808080;
+}
+.bic {
+  font-size: 1.5em;
+  color: #fbff22;
+}
+.btn {
+  color: white;
+  border: 1px solid #fbff22;
+}
+.bg-btn2 {
+  background: none;
+  border: 1px solid #808080;
+}
+.pgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 20px;
+}
+.hrline {
+  border-bottom: 5px solid #808080;
+}
+li{
+  list-style: none;
+}
+.footer {
+  margin-top: 50px;
+}
+@media screen and (max-width: 950px) {
+  .main {
+    width: 100%;
+  }
+}
